@@ -8,13 +8,19 @@
     <CheckBox
         android:id="@+id/checkConcluida"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/checkbox_color"/>
+
     <TextView
         android:id="@+id/textTitulo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textSize="18sp"/>
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textSize="16sp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
     <Button
         android:id="@+id/btnEditar"
         android:layout_width="wrap_content"
@@ -24,5 +30,6 @@
         android:id="@+id/btnExcluir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Excluir"/>
+        android:text="Excluir"
+        android:backgroundTint="#d32f2f"/>
 </LinearLayout>
