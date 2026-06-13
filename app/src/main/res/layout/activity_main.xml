@@ -12,7 +12,14 @@
         android:text="SmartTask"
         android:textSize="28sp"
         android:textStyle="bold"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:textColor="#234567"/>
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sair"
+        android:layout_margin="8dp" />
     <EditText
         android:id="@+id/editTarefa"
         android:layout_width="match_parent"
@@ -25,6 +32,7 @@
         android:layout_height="wrap_content"
         android:text="Adicionar Tarefa"
         android:layout_marginTop="8dp"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerTarefas"
         android:layout_width="match_parent"
